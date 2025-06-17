@@ -9,3 +9,4 @@ flask_cors
 PyMuPDF
 pandas
 python-dotenv
+faiss-cpu
