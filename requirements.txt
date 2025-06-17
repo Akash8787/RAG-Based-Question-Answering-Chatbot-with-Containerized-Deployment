@@ -1,0 +1,11 @@
+flask
+langchain
+langchain_community
+sentence_transformers
+groq
+paddleocr
+paddlepaddle
+flask_cors
+PyMuPDF
+pandas
+python-dotenv
