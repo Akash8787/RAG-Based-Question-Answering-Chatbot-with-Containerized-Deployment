@@ -1,0 +1,415 @@
+DEEP BLUE XPRESS LIMITED
+India’s #1 Cargo Shipping Company
+
+Trusted by over 10k+ brands and entrepreneurs for lowest shipping rates, widest reach and best customer service.
+
+
+About Company
+Founded in 1996, Deep Blue Xpress Limited is committed to providing the best-ever logistic consultancy & engineering services for both large & medium-sized companies. The company books integrated transportation & small courier distribution orders, offers secure and reliable delivery of consignments, improves your logistics process, and quotes envelopes.
+In the age of capital business globalization, the Deep Blue Xpress Limited team drives market leadership through its highly motivated people, dedicated air and ground capacity, along with a wide range of innovative, vertical-specific products and value-added services to deliver unbeatable services to the customers.
+With the advent of drastic changes in the political & economic system, assess to new markets, advanced logistics, and physical distribution system & the IT revolution have set the pace for the globalization of the Indian economy and going at par with the new business dynamics. Deep Blue Xpress Limited is a state-of-the-art technology helping competitive & dynamic businesses that require efficient logistics consultants. Being a tech-enabled gateway for e-commerce businesses, Deep Blue Xpress Limited plays a vital role in regional organizational success.
+
+Vision and mission
+1. Company Vision
+To become the world’s preferred supply chain logistics company – deeper insight, service quality, and innovation to develop sustainable growth for business and society. To be recognized as the expert in logistics & supply chain Services with top notch customer services.
+To be a leading competitive shipping and logistics company, setting high level standards in the industry.
+2. Company Mission
+Connecting people, brands, and communities to a better future – through logistics & shipping. Adhering to the utmost ethical and professional standards. To be the best employer, promoting dignity, business growth and personal pride for all of our employees.
+
+
+Our Team
+Under the able leadership of Mr. M. K. Jain, the founder cum chairman of the organization, Deep Blue Xpress Limited has an extraordinarily efficient team of management professionals working round the clock to deliver value to their customers.
+
+
+1. Mrs. Seema Jain
+Founded the company in 1997 and has steered the company since inception. Looks after the financial side of the company. Started the
+
+company with only 3 employees under her. She had a Blaze flash Franchisee before finding Deep Blue Xpress Limited.
+2. KC Chauhan
+Mr. Chauhan a loyalist who has been associated with us for over 24+ years and has risen among the ranks to become the regional manager. A hard worker who handles the top clients of the company and heads the customer support vertical of the company.
+3. Manoj Kaushik
+Mr. Manoj Kaushik has over 20+ years experience of being associated with Deep Blue Xpress Limited. He has been instrumental in growing the business in the North and has helped growing the business in other metro cities as well, where he used his strong networking and skills.
+4. Gopal Sharma
+Having a diversified experience of over 10+ years in various sectors, Mr. Gopal has been associated with Deep Blue Express since 2013. He has been instrumental in handling and growing the business in the east where is the Regional Manager.
+
+
+Our Services
+1. Door to Door Delivery Services
+2. Handling of Dangerous Goods 3.International Shipping Services
+
+4. Freight Forwarding Services
+5. Sea Freights
+6. Special Services 24 Hour Delivery Solutions
+
+
+Express & E Commerce Solutions
+We provide optimum quality and cost-effective courier services solutions to both small & medium and large-scale eCommerce enterprises, having different options for express delivery, including on-demand delivery, same-day delivery, and next-day delivery.
+
+
+Transportation Services
+Deep Blue Xpress Limited offers a single window solution for all cargo, couriers, and shipments to improve your logistics process and quotes envelopes, boxes, instant cargo shipments, and transportation services, whether it is handling general, heavy-duty, or over- dimensional cargo.
+
+
+Warehousing Solutions
+Deep Blue Xpress Limited specializes in providing customized warehousing solutions to its clients. Give your customers the best delivery experience with the warehousing service’s tech-enabled fulfilment solutions. At present, we boast a number of highly safe and multi-customer and large in key.
+
+Airport-to-Airport/Door Service
+The airport-to-airport service refers to an air freight service available on flights operated by us worldwide. The advantages of an airport-to- airport service include the following.
+
+
+Custom Clearance Services
+Customs clearance is one of the crucial parts of cargo shipping that is done seamlessly across the world, involving the preparation and submission of documentation that is needed to export or import the goods into or out of a country.
+
+
+
+Leading the Industry with Tech Enabled Services
+1. IT Enabled State of Art Software
+We always believe in technology (IT) infrastructure and capabilities to enhance and streamline our business processes and operations. Our software solutions are specifically designed to take advantage technologies, to deliver improved functionality, efficiency, and productivity.
+Benefits we would like to mention:
+
+? Automation and Efficiency
+? Enhanced Communication and Collaboration
+? Improved Data Management and Analysis
+? Enhanced Customer Experience
+? Cost Reduction
+? Competitive Advantage
+
+
+2.  Wallet System
+It allows businesses to streamline financial transactions within the logistics ecosystem. It functions as a virtual wallet or account where users can deposit funds and make payments for various logistics services, such as shipping, warehousing, and transportation. Customers can add money to their wallet using the available payment methods in their login and see their wallet transactions list.
+Feature provided with a Wallet System:
+? Fund Deposits
+? Payment Processing
+? Refunds and Withdrawals
+? Transaction History and Reports
+
+What will drive future growth of the company?
+1. Capability
+Revenue from direct customers has increased from 10 to 30% of total revenue which increases profitability. We aim to achieve 50% of our sales from them.
+2. Govt. Tenders
+We intend to create separate vertical for Govt. tenders headed by Key Account Manager. This segment has high volumes and better margins.
+3. Strong Team
+We have strong team of people both as well as Operational level to contribute in Company’s growth. However, we will be hiring some key management people from industry having rich work experience with big Logistic Companies like DHL, FEDEX etc.
+4. Technology & AI
+We will be launching an app which simplifies booking systems along with tracking of consignment.
+5. Acquisitions
+We intend to acquire small size domestic and international courier companies, which provide synergies with the existing business.
+
+Courier Management Software (CMS)
+Software Objectives
+>To provide all in one system that automate both tracking and Courier/ Logistics operation.
+>Consistent and Superior Customer Experiences. The best way to empower a customer is to give them full visibility over their delivery.
+>Using CMS’s delivery management solution you can let your customers know when their order is out for delivery.
+>Update exact location in real time, and expected ETA To your customers before they ask.
+Features of CMS Software
+• Barcode Support
+• Vendor Management
+• Billing/Invoicing
+• Label Printing
+• Order Entry
+• Account Reconciliation & Integration
+• Employee Management
+• Branch Management
+• EDI Filling
+• Routing
+• Client Management
+• GPS Location
+• Online Tracking
+• Dispatch Management
+
+• GST Compliance Through AI
+• Quick Analytics
+• Customer Web Portal
+• Online Booking & Tracking
+• Shipment Management
+• MIS
+• Email/SMS Notification
+• Easy POD Entry
+• Users and Permissions
+• Cost Configuration
+• CRM/Complaint suggestion
+• Easy API Integration
+• 24/7 Support
+
+
+CMS Technical Architecture
+1. CLIENT
+>Login
+>Pickup
+• Driver with Android App
+• Client Contract
+• Client Bill
+• Payment Receipt
+>Booking
+
+>Packet Status
+
+
+2. API (Left side)
+>Connected to CLIENT for:-
+• Pickup
+• Booking
+• Packet Status
+
+
+3. Website (Connected to CLIENT via Login)
+>Rate Request
+>CRM/Complaint Suggestion
+
+
+4. CMS (Central System)
+>Receives:-
+• Pickup Request from Website
+• Pickup Assignment to Driver
+• Booking Consignment
+• EDI Filing
+• AWB Creation
+
+• Shipping Bill Generation
+• MIS
+>Sends/Receives:-
+• Barcode Label
+• API Requests (Right side)
+• EDI Bill
+• Vendor Invoice
+• COD Management
+• Delivery Status
+• Dispatch to Branch
+
+
+5. Tracking
+>Connected to CMS
+
+
+6. Manifest
+>Connected to CMS
+
+
+7. Branch
+>connected to CMS via Dispatch
+
+>Run Sheet
+>Mobile Delivery(connected to Run Sheet)
+• Route Map(connected to COD Management)
+• Delivery Tracking Details:-
+• GPS Location
+• Signed POD Photo
+• Signature
+• Delivery
+• Consignee(receives delivery)
+
+
+8. Vendor
+>interacts with CMS for:-
+• API
+• EDI Bill
+• Vendor Invoice
+• COD Management
+• Get Rate
+• Book Packet
+• Delivery Status
+
+Powerful Mobile app for delivery
+Electronic proof of delivery app, all-in-one mobile solution for effective and efficient real-time driver performance monitoring and delivery confirmation. This unique paperless delivery App also works as a route planning software for arranging multiple deliveries with ease. Track-POD outstanding features also include GPS tracking, Sign on Glass, instant notification and electronic proof of delivery (e- POD). It can easily capture signatures and photographs on your digital delivery note templates to be used as a proof that the delivery was successful.
+>Signal Availability to Dispatch
+>Collect Signatures on Screen
+>Signed POD photo
+>Reliable GPS tracking
+>Barcode scanning
+
+
+Proof of delivery
+Route/Road Map
+1. After getting list of address to perform delivery dispatch one can see the optimized Google MAP route on just one click as shown in picture.
+
+2. After getting all information delivery executive click here to make the packet details save.
+
+
+Security Measures
+1. Cloud Platform
+2. Ease of Use
+3. Data Backup
+4. User level authentication through user Id and password for user.
+5. Administration level authentication through administrative Id and Password.
+
+
+Supported Platforms
+1.Android 2.Windows 3.ios
+
+Deployment:
+1. Cloud
+2. Web Installed-Windows
+3. Mobile- Android native Web-based
+
+Suitable For:
+All size industry
+
+
+
+
+OUR KEY CUSTOMERS:
+• Honda
+• Suzuki
+• Hindustan Unilever Limited
+• Teabox
+• Amazon
+• Brakewell
+• HNG Glass
+• Vestergaard
+• Biomed healthtech(P)Ltd.
+• Lakhani Shoes- Lakhani Armaan group
+• Orient electric
+• Misumi
+• DTDC
+
+• Overnite Express Limited
+• Spice Jet
+• cbazaar
+• elofic
+• Orient Exports
+• Ricoh
+• Centuryply
+• Victora group
+• Ramkrishna Fergings Limited
+
+
+Customer Testimonial
+1. Sunil Sharma Sr. Manager-Commercial Imperial Auto
+We appreciate all efforts & hard work that your Organization have put in Completing all our urgent shipments worldwide. It was all your continuous hard work that has given us a fruitful result eventually. We would like to thank you for your services for last few years.
+2. Mukesh Kumar G.M. (Exports) Victoria Group
+Deep Blue Xpress’s unmatched 24 hours delivery service has not only saved us close to USD 1.53 Mn on account of penalty being imposed upon due to late deliveries but Also managed to retain the customer’s delight.
+3. Dharmesh Owner Of Logistics
+
+First of all very kind, polite and supportive staff in Deep Blue, Mumbai. Since I have been working with Deep Blue Xpress it's great experience and enjoying the way the whole team work. I am happy to have such a business partner and wish to work forever.
+4. Manoj Negi Sr. Manager-Commercial Showa India Pvt. Ltd
+We would personally like to appreciate all the hard work and attentive effort that you have put into completing this urgent shipment of Thailand. It was your persistent hard work that has given us a fruitful result eventually. We would like to thank you for your services for last few years.
+
+
+
+
+JAPAN TRADE BY COMMODITY
+EXPORT:-
+Transport equipment- 23.5%
+Machinery- 20.1%
+Electrical Machinery- 17.9%
+Manufactured Goods- 13.2%
+Chemical- 10.0%
+Raw Materials- 1.7%
+Mineral fuels- 1.6%
+Foodstuff- 0.6%
+Others- 11.4%
+
+IMPORT:-
+Mineral fuels- 34.1%
+Electrical Machinery- 11.9%
+Chemicals- 8.4%
+Foods- 8.3%
+Manufactured Goods- 7.8%
+General Machinery- 7.1%
+Raw Materials- 6.8%
+Transport equipment- 3.3%
+Others- 12.4%
+
+
+CAGR of Approx 10% to 11%
+
+
+Business opportunity Japan Lane
+? Total Volume of Air Freight Japan – India Lane Approx 5000 tons
+? Total Volume of Air Freight India – Japan Lane Approx 730 tons
+? Total Volume of Express Courier Japan – India Lane Approx 1800 tons
+
+? Total Volume of Express Courier India – Japan Lane Approx 1000 tons
+
+
+Plans for Japan Lane Both Export & import
+1. Reliability and Speed through a known Express company.
+2. Integrating Technology and identifying customers who need customised solutions including food, News Papers, General Commodity, Medicines Clothing, Accessories etc.
+3. Identifying potential markets and customers particularly in Chennai, Pune, Ahmedabad, Mumbai, Bengaluru and Delhi and deploying Japanese Speaking Sales Force for better interaction and effective sales performance.
+4. Giving Tailor made solution including Next Day Delivery at maximum possible locations in japan.
+5. Concentrating both on Exports and Import Customers.
+6. Maximum market captured by DHL and the second place by FedEx in the Express lane with others a distance third.
+7. Working with Airlines and taking best contracts and also asking our partners to give us best possible rates to develop initially to capture market and give Customers not only Delivery delight but at the lowest possible pricing.
+8. There is huge potential on the Korean-India Lane and Taiwan-India lane in small Express courier packages.
+
+Key Business Metrics
+>Tons of Cargo delivered- 3.56 lakh
+>Number of Packets delivered-3.95 lakh
+>Revenue growth rate in Air Freight- 30%
+>Number of Clients Handled- 500+
+>Number of Zip codes Served- 01+ million
+>Success rate of Delivery- 95%
+
+
+
+TOP AFR BUSINESS CUSTOMERS LIST
+• The Samvardhana Motherson Group
+• Yokogawa Europe BV
+• Napino Auto & Electronics
+• T.V. Sundram Iyengar & Sons
+• Nissei ASB Machine
+• Kansai Paint
+• Bridgestone
+• Erbis
+• Furukawa Electric
+
+• Honda Motor
+• IMI plc
+• Polo Ralph Lauren
+• Jubilant Organosys
+• Nihon Koso Group
+• TE Connectivity
+• GlaxoSmithKline
+• Uniparts Group
+• H&M Hennes & Mauritz
+• Caterpillar
+• Bombay Rayon Fashions
+• Penguin Group
+• Endress & Hauser
+• Edwards Vacuum
+• ABC Mart
+• Shindengen Electric Manufacturing Co.
+• General Electric
+• JCB
+• Makino Milling Machine
+• Indica Chemical Industries
+• Murata Machinery
+
+• Nissan
+• Robert Bosch
+• ELGI
+• Baccarose Perfumes
+• Endurance Group
+• Sojitz
+• Ntf India Private Limited
+• SL Corporation
+• Sigma Vibracoustic
+• Fujifilm
+• Saint-Gobain
+• A Raymond
+• Tomkins
+• Daimler
+• Umicore
+• Abbott Laboratories
+• Daifuku Co Ltd
+• BASF
+• Allison Transmission
+• Pargal Fauna Exports
+• Godrej Group
+
+• Saurashtra Fuels
+• Bhole Baba Group
+• Taisho Pharmaceutical
+• Encube Ethicals
+• Joyful Honda
+• Bros India Group
+• Core Carbons Private Limited
+• Nokia Markets
+
+
+
+
+THANK YOU
+mob: 91-11-43202020
+website: www.deeplue.in email: info@deepblue.in
+Location: G-4,Rama Palace, Sector 20B, Ajronda Chowk, Faridabad, Haryana 121007
