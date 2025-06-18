@@ -104,10 +104,18 @@ If the condition is set to false, the LLM will first try to respond using the ex
 
 
 
-## API Request Example
+## API Request Example for Txt file
 
 ![API Request](images/api_request_upload.png)
 
 ![Content In Uploaded File](images/Content_in_Uploaded_Txt_file.png)
 
 ![Api Request for Question and getting response](images/Question_Request_api_and_response.png)
+
+## API Request Example for CSV file
+
+![API Request](images/Uploading_Csv_file.png)
+
+![Content In Uploaded File](images/Data_in_csv_file.png)
+
+![Api Request for Question and getting response](images/Question_Request_api_and_response_for_CSV_file.png)
