@@ -106,6 +106,8 @@ If the condition is set to false, the LLM will first try to respond using the ex
 
 ## API Request Example for Txt file
 
+Uploading the txt file through /upload_pdf
+
 ![API Request](images/api_request_upload.png)
 
 ![Content In Uploaded File](images/Content_in_Uploaded_Txt_file.png)
