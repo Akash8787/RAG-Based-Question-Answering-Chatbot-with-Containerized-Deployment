@@ -10,3 +10,4 @@ PyMuPDF
 pandas
 python-dotenv
 faiss-cpu
+docx-python

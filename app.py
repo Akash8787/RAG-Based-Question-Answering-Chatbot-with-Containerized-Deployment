@@ -42,11 +42,6 @@ client = Groq(api_key=GROQ_API_KEY)
 # Global settings
 strict_conversation_history = {}
 flexible_conversation_history = {}
-# Define a custom directory for PaddleOCR models
-model_dir = "D:\\Python_Project\\Ollama_ChatBot2\\paddleocr_models"
-
-# Ensure the directory exists
-os.makedirs(model_dir, exist_ok=True)
 
 # Initialize PaddleOCR with the custom directory
 ocr = PaddleOCR(use_angle_cls=True,lang="en")
