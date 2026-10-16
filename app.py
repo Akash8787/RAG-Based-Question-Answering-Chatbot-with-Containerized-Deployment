@@ -44,7 +44,11 @@ strict_conversation_history = {}
 flexible_conversation_history = {}
 
 # Initialize PaddleOCR with the custom directory
-ocr = PaddleOCR(use_angle_cls=True,lang="en")
+# ocr = PaddleOCR(
+#     use_textline_orientation=True,
+#     lang="en"
+# )
+ocr = PaddleOCR(enable_mkldnn=False)
 # ocr = PaddleOCR(use_angle_cls=True, lang="en", use_gpu=is_available())
 
 # Prompt templates with dynamic word limit
@@ -195,7 +199,11 @@ def upload_pdf():
     base64_file = data.get("pdf_base64")
     filename = data.get("filename")
     file_extension = data.get("file_extension")
-    word_limit = data.get("wordingLength", 50)
+    try:
+        word_limit = int(data.get("wordingLength") or 50)
+    except (TypeError, ValueError):
+        word_limit = 50
+    # word_limit = data.get("wordingLength", 50)
 
     if not all([user_code, token, base64_file, filename, file_extension]):
         return jsonify({"status": "error", "message": "Missing required fields"})
@@ -241,10 +249,17 @@ def upload_pdf():
                 for img in page.get_images(full=True):
                     xref = img[0]
                     base_image = doc.extract_image(xref)
-                    image = Image.open(io.BytesIO(base_image["image"]))
-                    result = ocr.ocr(np.array(image), cls=True)
-                    if result:
-                        image_texts.extend(word_info[1][0] for line in result if line for word_info in line)
+                    # image = Image.open(io.BytesIO(base_image["image"]))
+
+                    image = Image.open(io.BytesIO(base_image["image"])).convert("RGB")
+                    result = ocr.predict(np.array(image))
+                    for res in (result or []):
+                        texts = res.get("rec_texts", []) if hasattr(res, "get") else res.json["res"].get("rec_texts", [])
+                        image_texts.extend(t for t in texts if t and t.strip())
+                    # result = ocr.ocr(np.array(image), cls=True)
+                    # result = ocr.predict(np.array(image))
+                    # if result:
+                    #     image_texts.extend(word_info[1][0] for line in result if line for word_info in line)
                 combined_text = page_text + ("\n" + "\n".join(image_texts) if image_texts else "")
                 if combined_text.strip():
                     split_docs.append(Document(page_content=combined_text, metadata={"source": filename, "page": page_num + 1}))
