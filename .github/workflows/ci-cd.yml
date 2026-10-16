@@ -1,3 +1,4 @@
+
 name: RAG Chatbot CI/CD
 
 on:
@@ -49,10 +50,14 @@ jobs:
             echo "Add automated tests to enable test execution."
           fi
 
+  
   docker:
-    name: Build Docker Image
+    name: Build and Push Docker Image
     runs-on: ubuntu-latest
     needs: test
+
+    # Publish only when code is pushed to main
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
 
     steps:
       - name: Checkout Repository
@@ -61,9 +66,17 @@ jobs:
       - name: Set Up Docker Buildx
         uses: docker/setup-buildx-action@v3
 
-      - name: Build Docker Image
+      - name: Log in to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      - name: Build and Push Docker Image
         uses: docker/build-push-action@v6
         with:
           context: .
-          push: false
-          tags: rag-chatbot:latest
+          push: true
+          tags: |
+            aakash887/rag-question-answering-chatbot:latest
+            aakash887/rag-question-answering-chatbot:${{ github.sha }}
