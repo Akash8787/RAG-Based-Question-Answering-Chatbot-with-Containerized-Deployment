@@ -48,7 +48,8 @@ flexible_conversation_history = {}
 #     use_textline_orientation=True,
 #     lang="en"
 # )
-ocr = PaddleOCR(enable_mkldnn=False)
+# ocr = PaddleOCR(enable_mkldnn=False)
+ocr = PaddleOCR(use_angle_cls=True, lang="en")
 # ocr = PaddleOCR(use_angle_cls=True, lang="en", use_gpu=is_available())
 
 # Prompt templates with dynamic word limit
@@ -251,11 +252,21 @@ def upload_pdf():
                     base_image = doc.extract_image(xref)
                     # image = Image.open(io.BytesIO(base_image["image"]))
 
+                    # image = Image.open(io.BytesIO(base_image["image"])).convert("RGB")
+                    # result = ocr.predict(np.array(image))
+                    # for res in (result or []):
+                    #     texts = res.get("rec_texts", []) if hasattr(res, "get") else res.json["res"].get("rec_texts", [])
+                    #     image_texts.extend(t for t in texts if t and t.strip())
                     image = Image.open(io.BytesIO(base_image["image"])).convert("RGB")
-                    result = ocr.predict(np.array(image))
-                    for res in (result or []):
-                        texts = res.get("rec_texts", []) if hasattr(res, "get") else res.json["res"].get("rec_texts", [])
-                        image_texts.extend(t for t in texts if t and t.strip())
+                    result = ocr.ocr(np.array(image), cls=True)
+
+                    # 2.x returns one entry per image; each entry is a list of [box, (text, confidence)] or None
+                    for page in (result or []):
+                        for line in (page or []):
+                            text = line[1][0]
+                            if text and text.strip():
+                                image_texts.append(text)
+
                     # result = ocr.ocr(np.array(image), cls=True)
                     # result = ocr.predict(np.array(image))
                     # if result:
