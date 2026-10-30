@@ -49,7 +49,14 @@ flexible_conversation_history = {}
 #     lang="en"
 # )
 # ocr = PaddleOCR(enable_mkldnn=False)
-ocr = PaddleOCR(use_angle_cls=True, lang="en")
+# ocr = PaddleOCR(use_angle_cls=True, lang="en")
+ocr = PaddleOCR(
+    lang='en',
+    use_doc_orientation_classify=False,  # skip page-orientation model
+    use_doc_unwarping=False,             # skip UVDoc (it would shift coordinates)
+    use_textline_orientation=False,      # skip text-line orientation model
+    enable_mkldnn=False,                 # avoids the oneDNN crash
+)
 # ocr = PaddleOCR(use_angle_cls=True, lang="en", use_gpu=is_available())
 
 # Prompt templates with dynamic word limit
@@ -252,20 +259,20 @@ def upload_pdf():
                     base_image = doc.extract_image(xref)
                     # image = Image.open(io.BytesIO(base_image["image"]))
 
-                    # image = Image.open(io.BytesIO(base_image["image"])).convert("RGB")
-                    # result = ocr.predict(np.array(image))
-                    # for res in (result or []):
-                    #     texts = res.get("rec_texts", []) if hasattr(res, "get") else res.json["res"].get("rec_texts", [])
-                    #     image_texts.extend(t for t in texts if t and t.strip())
                     image = Image.open(io.BytesIO(base_image["image"])).convert("RGB")
-                    result = ocr.ocr(np.array(image), cls=True)
+                    result = ocr.predict(np.array(image))
+                    for res in (result or []):
+                        texts = res.get("rec_texts", []) if hasattr(res, "get") else res.json["res"].get("rec_texts", [])
+                        image_texts.extend(t for t in texts if t and t.strip())
+                    # image = Image.open(io.BytesIO(base_image["image"])).convert("RGB")
+                    # result = ocr.ocr(np.array(image), cls=True)
 
-                    # 2.x returns one entry per image; each entry is a list of [box, (text, confidence)] or None
-                    for page in (result or []):
-                        for line in (page or []):
-                            text = line[1][0]
-                            if text and text.strip():
-                                image_texts.append(text)
+                    # # 2.x returns one entry per image; each entry is a list of [box, (text, confidence)] or None
+                    # for page in (result or []):
+                    #     for line in (page or []):
+                    #         text = line[1][0]
+                    #         if text and text.strip():
+                    #             image_texts.append(text)
 
                     # result = ocr.ocr(np.array(image), cls=True)
                     # result = ocr.predict(np.array(image))
@@ -428,7 +435,8 @@ def ask_question():
             summary_prompt = f"Summarize this conversation:\n{' '.join(history_dict[session_key][:-10])}"
             try:
                 completion = client.chat.completions.create(
-                    model="meta-llama/llama-4-scout-17b-16e-instruct",
+                    # model="meta-llama/llama-4-scout-17b-16e-instruct",
+                    model="openai/gpt-oss-120b",
                     messages=[{"role": "user", "content": summary_prompt}],
                     temperature=1,
                     max_completion_tokens=1024,
@@ -451,7 +459,8 @@ def ask_question():
         try:
             # Invoke Groq API for fallback answer
             completion = client.chat.completions.create(
-                model="meta-llama/llama-4-scout-17b-16e-instruct",
+                # model="meta-llama/llama-4-scout-17b-16e-instruct",
+                model="openai/gpt-oss-120b",
                 messages=[{"role": "user", "content": prompt}],
                 temperature=1,
                 max_completion_tokens=1024,
@@ -537,7 +546,8 @@ def ask_question():
         # Invoke Groq API with context
         try:
             completion = client.chat.completions.create(
-                model="meta-llama/llama-4-scout-17b-16e-instruct",
+                # model="meta-llama/llama-4-scout-17b-16e-instruct",
+                model="openai/gpt-oss-120b",
                 messages=[{"role": "user", "content": prompt}],
                 temperature=1,
                 max_completion_tokens=1024,
